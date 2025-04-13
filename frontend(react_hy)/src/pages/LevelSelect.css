@@ -1,0 +1,28 @@
+  .level-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 25px;
+    background-color: white;
+    font-family: 'Irish Grover', cursive;
+    font-size: 30px;
+  }
+  
+  .level-button {
+    width: 600px;
+    height: 140px;
+    font-size: 3rem;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .level-button:hover {
+    background-color: black;
+    color: white;
+  }
+  

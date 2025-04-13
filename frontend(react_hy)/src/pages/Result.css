@@ -1,0 +1,77 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+}
+
+.top-text {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  font-size: 2rem;
+}
+
+.Stackers {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-family: 'Jaro', sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
+
+.result-print {
+  position: absolute;
+  top: 37%;
+  left: center;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Irish Grover', sans-serif;
+  font-size: 60px;
+
+  /* 👇 애니메이션만 추가 */
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.restart-button {
+  position: absolute;
+  top: 570px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+  height: 110px;
+  font-size: 2.5rem;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.restart-button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+  
